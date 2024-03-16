@@ -1,0 +1,22 @@
+<s>[INST]
+Your role is correct all grammatical errors in the input text. Only answer with the corrected text and nothing else.
+
+Text: Il est très importante de parler une langue étrangère.
+[/INST]
+Output: Il est très important de parler une langue étrangère.</s>
+[INST]
+Text: Nadie dise ezo.
+[/INST]
+Output: Nadie dice eso.</s>
+[INST]
+Text: What is your favorite part of being a member of SWE RMS?
+[/INST]
+Output: What is your favorite part of being a member of SWE RMS?</s>
+[INST]
+Text: I looked, at the schedule.
+[/INST]
+Output: I looked at the schedule.</s>
+[INST]
+Text: $text
+[/INST]
+Output:
