@@ -31,8 +31,15 @@ def process_call(prompt):
 
 
 if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(description="")
+    parser.add_argument("--split", type=str, default="train")
+    args = parser.parse_args()
+    split = args.split
+
     data_path = BASE_PATH / "data"
-    split = "train"  # train test
+
     out_name = "api_predicted_test" if split == "test" else "api_predicted_distill"
     size = 1000 if split == "test" else 5000
 

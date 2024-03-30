@@ -20,9 +20,16 @@ with open(BASE_PATH / "data" / "gec.template", "r") as f:
 
 
 if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(description="")
+    parser.add_argument("--split", type=str, default="test")
+    args = parser.parse_args()
+    split = args.split
+
     data_path = BASE_PATH / "data"
     base_model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
-    split = "test"  # train test
+
     out_name = "local_predicted_test" if split == "test" else "local_predicted_distill"
     size = 1000 if split == "test" else 5000
 

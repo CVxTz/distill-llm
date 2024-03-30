@@ -13,6 +13,13 @@ from transformers import (
 from distill.dataset_utils import build_data
 
 if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(description="")
+    parser.add_argument("--split", type=str, default="test")
+    args = parser.parse_args()
+    split = args.split
+
     BASE_PATH = Path(__file__).parents[1] / "outputs"
     DATA_PATH = Path(__file__).parents[1] / "data"
 
