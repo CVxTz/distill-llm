@@ -4,7 +4,7 @@ Example of distilling LLM knowledge using LoRa
 
 ## Data
 
-We use this dataset ```juancavallotti/multilingual-gec``` from the huggingface Hub.
+We use this dataset ```juancavallotti/multilingual-gec``` from the huggingface Hub. It is a synthetic grammar correction dataset.
 
 ## Install
 
@@ -22,6 +22,4 @@ pip install -r requirements.txt
 
 ## Run
 
-All steps to run the experiments are listed in order in the file ```scripts/run.sh```
-
-That you can run as ```bash scripts/run.sh```
+All steps to run the experiments are listed in order in the file ```scripts/run.sh``` that you can run as ```bash scripts/run.sh```
