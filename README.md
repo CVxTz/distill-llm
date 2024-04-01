@@ -23,3 +23,12 @@ pip install -r requirements.txt
 ## Run
 
 All steps to run the experiments are listed in order in the file ```scripts/run.sh``` that you can run as ```bash scripts/run.sh```
+
+## Results
+% of exact match between ground truth and prediction: 
+
+```
+LLama 2–70B: 42%
+Base Tiny-LLama: 11%
+Distilled Tiny-LLama: 31%
+```
