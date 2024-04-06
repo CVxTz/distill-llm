@@ -32,3 +32,7 @@ LLama 2–70B: 42%
 Base Tiny-LLama: 11%
 Distilled Tiny-LLama: 31%
 ```
+
+## Blog
+
+https://medium.com/p/12e954d256c2 
